@@ -1,0 +1,59 @@
+.testimonial
+  &_subtitle
+    text-transform: uppercase
+    color: $colorTurquoise
+    margin-bottom: -17px
+  &_title
+    text-transform: capitalize
+    font-size: 60px
+    line-height: 1.3
+    padding-bottom: 150px
+  &_wrapper
+    margin-top: 220px
+
+.card
+  &__title
+    text-transform: capitalize
+    font-size: 40px
+    line-height: 1.2
+    padding-bottom: 30px
+  &_logo
+    position: relative
+  &_img
+    max-width: 150px
+    max-height: 150px
+    border-radius: 50%
+    filter: grayscale(100%)
+    position: absolute
+    top: -170px
+    right: 0px
+    left: 0px
+    margin: auto
+    &__mark
+      position: absolute
+      top: -200px
+      right: -90px
+      left: 0px
+      margin: auto
+  &_text
+    font-size: 20px
+    line-height: 1.3
+    text-transform: capitalize
+    padding-left: 30px
+    padding-right: 14px
+    padding-bottom: 75px
+  &_wrapper
+    background-image: url('../img/bg_card.png')
+    // background-repeat: no-repeat
+    border-radius: 10px
+    position: relative
+    padding-top: 100px
+  &_wrap
+    &_img
+      position: absolute
+      right: 0px
+
+@media screen and ( max-width: 992px )
+  .testimonial
+    &_wrapper
+      margin-top: 740px

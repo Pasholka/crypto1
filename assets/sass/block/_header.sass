@@ -1,0 +1,79 @@
+// @media (min-width: 300px) and (max-width: 1920px)
+.header
+  position: relative
+  z-index: 10
+  &::before
+    position: absolute
+    top: 0px
+    left: 0px
+    right: 0px
+    bottom: 0px
+    display: block
+    content: ''
+    background-image: url('../img/Ellipse_green.png')
+    background-repeat: no-repeat
+    // background: rgba(84, 197, 173, 0.95)
+    filter: blur(217px)
+    z-index: -1
+  // &::after
+  //   background-image: url('../img/Ellipse_blue.png')
+  //   background-repeat: no-repeat
+  //   content: ''
+  //   right: 0px
+  //   top: 0px
+  //   position: absolute
+  //   width: 100%
+  //   height: 100%
+.nav
+  padding-top: 90px
+  &_list
+    font-weight: 400
+    font-size: 20px
+    line-height: 25px
+.logo
+  font-weight: 700
+  font-size: 27px
+  line-height: 34px
+  color: white
+  justify-content: space-between
+.hero
+  &_wrapper
+    padding-top: 190px
+  &_wrap
+    max-width: 520px
+    padding-top: 140px
+    &_button
+      margin-top: 60px
+  &_button
+    border: 3px solid #23263C
+    font-size: 27px
+    line-height: 1.3
+
+    &:hover
+      background: #23263C
+  &_lion
+    width: 100%
+    filter: drop-shadow(24px 19px 40px #56CAB1)
+    border-radius: 10px
+    // transform: matrix(0.99, 0, -0.1, 1, 0, 0)
+
+@media screen and ( max-width: 992px )
+  .hero
+    &_wrapper
+      padding-top: 0
+    &_lion
+      padding-top: 50px
+@media screen and ( max-width: 576px )
+  .button
+    padding: 15px 30px
+  .hero
+    &_button
+      font-size: 20px
+  .nav
+    padding-top: 10px
+    position: fixed
+    width: 100%
+    background: rgba(143, 190, 116, 0.6)
+    z-index: 1
+  .title
+    font-size: 30px
