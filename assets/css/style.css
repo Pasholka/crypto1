@@ -57,7 +57,7 @@ h5 {
   bottom: 0px;
   display: block;
   content: "";
-  background-image: url("/assets/img/Ellipse_green.png");
+  background-image: url("assets/img/Ellipse_green.png");
   background-repeat: no-repeat;
   -webkit-filter: blur(217px);
   filter: blur(217px);
@@ -194,7 +194,7 @@ h5 {
 
 .monkey_bg {
   position: absolute;
-  background-image: url("/assets/img/Ellipse_2.png");
+  background-image: url("assets/img/Ellipse_2.png");
 }
 
 .monkey_bg__wrapper {
@@ -204,7 +204,7 @@ h5 {
 .monkey_bg__wrapper::before {
   content: "";
   position: absolute;
-  background-image: url("/assets/img/Ellipse2.png");
+  background-image: url("assets/img/Ellipse2.png");
   background-repeat: no-repeat;
   top: 0px;
   left: 0px;
@@ -337,7 +337,7 @@ h5 {
 
 .lighthsec_wrapper__card::after {
   content: "";
-  background-image: url("/assets/img/Polygon.png");
+  background-image: url("assets/img/Polygon.png");
   background-repeat: no-repeat;
   position: absolute;
   top: -145px;
@@ -457,7 +457,7 @@ h5 {
 }
 
 .card_wrapper {
-  background-image: url("/assets/img/bg_card.png");
+  background-image: url("assets/img/bg_card.png");
   border-radius: 10px;
   position: relative;
   padding-top: 100px;
@@ -521,7 +521,7 @@ h5 {
 
 .footer::after {
   content: "";
-  background-image: url("/assets/img/hr.png");
+  background-image: url("assets/img/hr.png");
 }
 
 .footer_list {
