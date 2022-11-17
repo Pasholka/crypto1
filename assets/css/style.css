@@ -823,7 +823,8 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: #23263c;
-  width: 400px;
+  width: 80%;
+  max-width: 400px;
   padding: 25px;
   transition: 0.5s all;
 }
