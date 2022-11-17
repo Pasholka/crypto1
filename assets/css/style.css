@@ -127,7 +127,7 @@ h5 {
 
 @media screen and (max-width: 576px) {
   .button {
-    padding: 15px 30px;
+    padding: 15px 25px;
   }
   .hero_button {
     font-size: 14px;
@@ -309,6 +309,11 @@ h5 {
   .monkey_title {
     font-size: 35px;
     padding-top: 20px;
+    text-align: center;
+  }
+  .monkey_subtitle {
+    font-size: 20px;
+    text-align: center;
   }
   .monkey_subject {
     text-align: center;
