@@ -59,8 +59,8 @@ h5 {
   content: "";
   background-image: url("../img/Ellipse_green.png");
   background-repeat: no-repeat;
-  -webkit-filter: blur(217px);
-  filter: blur(217px);
+/*   -webkit-filter: blur(217px);
+  filter: blur(217px); */
   z-index: -1;
 }
 
